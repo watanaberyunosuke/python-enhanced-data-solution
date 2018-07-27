@@ -4,7 +4,7 @@ import matplotlib as mp
 import statistics as stat
 from itertools import groupby
 # Input Array to fill
-x = list([3, 4, 2, 5, 1, 6, 7, 1])
+x = list([3, 4, 2, 5, 1, 6, 7, 1, 1])
 print("Input:",x)
 #Sorting
 print("Sorted List:",sorted(x))

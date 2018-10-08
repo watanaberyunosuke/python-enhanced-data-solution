@@ -5,10 +5,10 @@ import statistics as stat
 from itertools import groupby
 
 # Read Excel by Using pandas, File Name and Sheets Name to be filled
-file = '/User/HarryZhan/Desktop/Test.xlsx'
+file = ''
 xl = pd.ExcelFile(file)
 print(xl.sheet_names)
-df1 = xl.parse('sheet1')
+df1 = xl.parse('sheTest.xlsxet1')
 #Sorting
 print("Sorted List:",sorted(data))
 # Output
